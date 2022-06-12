@@ -1,0 +1,203 @@
+body {
+    background-color: black;
+}
+
+.form{
+    font-family: monospace;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+}
+
+button{
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
+    background-color: black;
+}
+
+button:hover{
+  box-shadow: 0 5px 20px 0 white, 0 5px 50px 0 black;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+#logInSignUpContainer{
+    position: absolute;
+    width: 90%;
+    height : 90%;
+    top : 5vh;
+    left: 5vw;
+}
+
+#space {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+#formContainer{
+    width: 20%;
+    height: 50%;
+    top :25%;
+    left: 40%;
+    position: absolute;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+/*------LOGIN--------*/
+#logInHeader{
+    position: absolute;
+    left: 25%;
+    top: 5%;
+}
+
+#usernameLogInHeader{
+    position: absolute;
+    font-size: 20px;
+    left: 5%;
+    top: 35%;
+}
+#usernameLogIn{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    
+}
+#passwordLogInHeader{
+    position: absolute;
+    font-size: 20px;
+    left: 5%;
+    top: 55%;
+}
+#passwordLogIn{
+    position: absolute;
+    left: 40%;
+    top: 55%;
+}
+
+#logInError{
+    position : absolute;
+    left: 20%;
+    top: 63%;
+}
+
+#submitLogIn{
+    font-size : 20px;
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    left: 35%;
+    top: 75%;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+/*------SIGNUP--------*/
+
+#showPassword{
+    width: 1vw;
+    height: auto;
+    position: absolute;
+    left: 90%;
+    top: 55%;
+}
+
+#signUpHeader{
+    position: absolute;
+    left: 20%;
+    top: 5%;
+}
+
+#usernameSignUpHeader{
+    position: absolute;
+    font-size: 20px;
+    left: 5%;
+    top: 35%;
+}
+#usernameSignUp{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+    
+}
+#passwordSignUpHeader{
+    position: absolute;
+    font-size: 20px;
+    left: 5%;
+    top: 55%;
+}
+#passwordSignUp{
+    position: absolute;
+    left: 40%;
+    top: 55%;
+}
+
+#usernameSignUpError{
+    position : absolute;
+    left: 20%;
+    top: 43%;
+}
+
+#passwordSignUpError{
+    position : absolute;
+    left: 20%;
+    top: 63%;
+}
+
+#submitSignUp{
+    font-size : 20px;
+    position: absolute;
+    width: 30%;
+    height: 10%;
+    left: 35%;
+    top: 75%;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+/*------FOOTER------*/
+
+#infoContainer{
+    font-family: monospace;
+    position : absolute;
+    width: 100%;
+    height: 10%;
+    bottom : 0%;
+}
+
+#changeToSignUp{
+    position : absolute;
+    top: 20%;
+    left : 25%;
+}
+#changeToLogIn{
+    position : absolute;
+    top: 20%;
+    left : 25%;
+}
+#instructionsContainer{
+    position : absolute;
+    display : inline-block;
+    top: 19%;
+    left : 55%;
+    background-color: transparent;
+}
+#instructionsContainer:hover{
+    box-shadow: 0 5px 20px 0 white, 0 5px 50px 0 black;
+}
+
+#ctx{
+    display: none;
+}
+

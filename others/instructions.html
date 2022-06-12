@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Matteo Giorgi">
+    <meta name="keywords" content="Asteroids, space shooter, arcade, info">
+    <meta name="description" content="Pagina Informativa">
+
+    <title>Pagina Informativa</title>
+
+    <link rel="icon" type="image/png" href="../css/img/asteroid.png">
+
+    <style>
+        body {
+            background-color: black;
+            font-family: monospace;
+        }
+
+        #space {
+            background-color: gray;
+            position: absolute;
+            width: 90%;
+            height: 90%;
+            top: 5vh;
+            left: 5vw;
+        }
+
+        #spaceBackground {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        #info {
+            width: 20%;
+            height: 50%;
+            top: 25%;
+            left: 40%;
+            position: absolute;
+            background-color: black;
+            border: 3px solid white;
+            border-radius: 15px;
+            color: white;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            box-shadow: 0 5px 20px 0 white, 0 5px 50px 0 black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="space">
+        <video autoplay muted loop id="spaceBackground">
+            <source src="../css/video/asteroid_rain.mp4" type="video/mp4">
+            Il Browser non supporta gli elementi video.
+        </video>
+        <div id="info">
+            <h1>Manuale Utente</h1>
+            <p>
+                Asteroids : colpisci gli asteroidi con la tua navicella, per giocare devi prima accedere o registrarti.
+                Per muoverti in avanti usa il tasto "W", per ruotare a destra e sinistra i tasti "A" e "D", per avviare o mettere in pausa la partita permi il tasro "P".
+                Per sparare usa "SPACE" e per riavviare la partita il tasto "R". In alto a sinistra troverai il tuo punteggio che si incrementa ogni volta che colpisci
+                gli asteroidi, invece in alto destra troverai il numero di vite ancora disponibili e il tasto di logOut. A destra vi è la classifica dei migliori 10
+                giocatori mentre in basso a destra troverai la tua posizione in classifica e il tuo miglior punteggio.
+            </p>
+
+            <a id='Torna_al_LogIn' href='../index.php'>Torna indietro</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

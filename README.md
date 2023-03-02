@@ -8,7 +8,9 @@ To install the Asteroids Game Web App, clone the repository:
 
 `git clone https://github.com/mgiorgi13/Asteroids.git`
 
-Then launch the mysql server and launch the script to generate the DB.
+* Launch MySQL server and Apache web server
+* Import the database with the script located in folder 'other'
+* Move Asteroid folder in the htdocs and access the page througth localhost:80
 
 ## Usage
 
